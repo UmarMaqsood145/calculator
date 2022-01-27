@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background: rgba(181, 181, 202, 0.7);
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.center{
+    background: rgba(235, 237, 250, 0.6);
+    width: 300px;
+    height: 550px;
+    /* box-shadow: 0px 0px 12px 3px rgb(197 197 197); */
+    border-radius: 35px;
+}
+
+.inputField{
+    height: 170px;
+    border-radius: 35px 35px 0px 0px;
+}
+
+.voiceIcon{
+    background: #ced4da;
+    width: 60px;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    top: 15px;
+    left: 20px;
+    border-radius: 25px 25px 25px 0px;
+}
+
+.iconStyle{
+    font-size: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.resultDiv{
+    width: 100%;
+    height: 80px;
+    margin-top: 30px;
+}
+
+.outputShow{
+    height: 80px;
+    letter-spacing: 1px;
+    text-align: right;
+    font-size: 35px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+/* .resultShow{
+    background: green;
+    height: 50px;
+    letter-spacing: 1px;
+    text-align: right;
+    font-size: 20px;
+
+    padding: 10px;
+    border:none;
+    outline: none;
+} */
+
+
+.btns{
+    width: 280px;
+    height: 350px;
+    margin-left: 10px;
+}
+
+.countBtn{
+    background: #e5e8f1;
+    box-shadow: inset 0px 0px 3px 4px #c5c8d3;
+    width: 55px;
+    height: 55px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-left: 12px;
+    margin-top: 15px;
+}
+
+.otherBtn{
+    background: #d37427;
+    box-shadow: inset 0px 0px 3px 4px #9c5011;
+    width: 55px;
+    height: 55px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    margin-left: 12px;
+    margin-top: 15px;
+}
+
+.clearBtn{
+    background: #9ea7bb;
+    box-shadow: inset 0px 0px 3px 4px #6f7c92;
+    width: 55px;
+    height: 55px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-left: 12px;
+    margin-top: 15px;
+}
+
+.zeroBtn{
+    background: #e5e8f1;
+    box-shadow: inset 0px 0px 3px 4px #d2d5e0;
+    width: 122px;
+    height: 55px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-left: 12px;
+    margin-top: 15px;
+}
